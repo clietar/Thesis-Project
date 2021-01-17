@@ -45,7 +45,7 @@
         "_umap_options": {
           "showLabel": null,
           "iconClass": "Circle",
-          "color": "SpringGreen"
+          "color": "#E95F48"
         },
         "name": "Mon arret 2",
         "description": "Cet arret est situé sur la ligne 2"
