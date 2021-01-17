@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "color": "Blue",
+          "weight": "7",
+          "popupShape": "Panel",
+          "showLabel": null
+        },
+        "name": "Ma Ligne 1",
+        "description": "Ligne 1 :  bidule  <--> truc"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.155915,
+            48.708135
+          ],
+          [
+            -1.153426,
+            48.708234
+          ],
+          [
+            -1.151302,
+            48.708177
+          ],
+          [
+            -1.14877,
+            48.708305
+          ],
+          [
+            -1.146517,
+            48.70822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "showLabel": null,
+          "iconClass": "Circle",
+          "color": "SpringGreen"
+        },
+        "name": "Mon arret 2",
+        "description": "Cet arret est situé sur la ligne 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.148834,
+          48.708315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "color": "SpringGreen",
+          "iconClass": "Circle",
+          "showLabel": null
+        },
+        "description": "heelp",
+        "name": "Mon arret"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.146388,
+          48.708202
+        ]
+      }
+    }
+  ]
+}
