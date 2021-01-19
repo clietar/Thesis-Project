@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
           "showLabel": null,
-          "iconClass": "Circle",
+          "iconClass": "google.maps.SymbolPath.CIRCLE",
           "color": "#E95F48",
         "name": "Mon arret 2",
         "description": "Cet arret est situé sur la ligne 2"
@@ -58,7 +58,7 @@
       "type": "Feature",
       "properties": {
           "color": "#97c7df",
-          "iconClass": "Circle",
+          "iconClass": "google.maps.SymbolPath.CIRCLE",
           "showLabel": null,
         "description": "heelp",
         "name": "Mon arret"
