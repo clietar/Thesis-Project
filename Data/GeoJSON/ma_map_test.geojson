@@ -4,12 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "_umap_options": {
-          "color": "Blue",
+          "color": "#97c7df",
           "weight": "7",
           "popupShape": "Panel",
-          "showLabel": null
-        },
+          "showLabel": null,
         "name": "Ma Ligne 1",
         "description": "Ligne 1 :  bidule  <--> truc"
       },
@@ -42,11 +40,9 @@
     {
       "type": "Feature",
       "properties": {
-        "_umap_options": {
           "showLabel": null,
           "iconClass": "Circle",
-          "color": "#E95F48"
-        },
+          "color": "#E95F48",
         "name": "Mon arret 2",
         "description": "Cet arret est situé sur la ligne 2"
       },
@@ -61,11 +57,9 @@
     {
       "type": "Feature",
       "properties": {
-        "_umap_options": {
-          "color": "SpringGreen",
+          "color": "#97c7df",
           "iconClass": "Circle",
-          "showLabel": null
-        },
+          "showLabel": null,
         "description": "heelp",
         "name": "Mon arret"
       },
