@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
           "color": "#97c7df",
-          "weight": "2",
+          "weight": 2,
           "popupShape": "Panel",
           "showLabel": null,
         "name": "Ma Ligne 1",
