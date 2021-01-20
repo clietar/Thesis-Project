@@ -5,12 +5,12 @@
       "type": "Feature",
       "properties": {
           "color": "#97c7df",
-          "weight": 2,
           "popupShape": "Panel",
           "showLabel": null,
         "name": "Ma Ligne 1",
         "description": "Ligne 1 :  bidule  <--> truc",
-        "picture" : "https://www.chirurgien-dentiste-paris15.fr/wp-content/uploads/sites/2954/2014/09/bus-39-80-300x150.png"
+        "picture" : "https://www.chirurgien-dentiste-paris15.fr/wp-content/uploads/sites/2954/2014/09/bus-39-80-300x150.png",
+        "picture_height": 300
       },
       "geometry": {
         "type": "LineString",
@@ -47,7 +47,8 @@
           "size" : 3,
         "name": "Mon arret 2",
         "description": "Cet arret est situé sur la ligne 2",
-        "picture": "https://cdn-s-www.bienpublic.com/images/441F11B5-51CF-46A4-BE7A-56F0558C08D5/NW_detail/title-1557249666.jpg"
+        "picture": "https://cdn-s-www.bienpublic.com/images/441F11B5-51CF-46A4-BE7A-56F0558C08D5/NW_detail/title-1557249666.jpg",
+        "picture_height": 75
       },
       "geometry": {
         "type": "Point",
@@ -67,6 +68,7 @@
         "description": "heelp",
         "name": "Mon arret",
         "picture": "https://www.mesopinions.com/public/img/petition/petition-img-33818-fr.jpeg" },
+        "picture_height": 75
       "geometry": {
         "type": "Point",
         "coordinates": [
