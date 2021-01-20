@@ -59,7 +59,7 @@
       "type": "Feature",
       "properties": {
           "color": "#97c7df",
-          "size": "5"
+          "size": "5",
           "iconClass": "http://maps.google.com/mapfiles/kml/shapes/road_shield3.png",
           "showLabel": null,
         "description": "heelp",
