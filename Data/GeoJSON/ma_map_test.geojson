@@ -67,8 +67,8 @@
           "showLabel": null,
         "description": "heelp",
         "name": "Mon arret",
-        "picture": "https://www.mesopinions.com/public/img/petition/petition-img-33818-fr.jpeg" },
-        "picture_height": 75
+        "picture": "https://www.mesopinions.com/public/img/petition/petition-img-33818-fr.jpeg",
+        "picture_height": 75},
       "geometry": {
         "type": "Point",
         "coordinates": [
