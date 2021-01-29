@@ -369,11 +369,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.47585283324793615,
+          44.84069514897778
+        ]
+      },
+      "properties": {"name":"Lycée J.Capelle", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.4780243153350794,
           44.84364591034441
         ]
       },
-      "properties": {"name":"Lycée J.Capelle", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Naillac", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -384,7 +395,7 @@
           44.854700030179764
         ]
       },
-      "properties": {"name":"Naillac", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Chanzy / Lycée des Métiers", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -395,7 +406,7 @@
           44.852563505531194
         ]
       },
-      "properties": {"name":"Chanzy / Lycée des Métiers", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Jeanne D'Arc", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -406,7 +417,7 @@
           44.85120261748202
         ]
       },
-      "properties": {"name":"Jeanne D'Arc", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Hôpital Samuel Pozzi", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -417,7 +428,7 @@
           44.849643493218686
         ]
       },
-      "properties": {"name":"Hôpital Samuel Pozzi", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Du Bellay", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -428,7 +439,7 @@
           44.84910331358292
         ]
       },
-      "properties": {"name":"Du Bellay", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Guilbeaud", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -439,7 +450,7 @@
           44.85254402359569
         ]
       },
-      "properties": {"name":"Guilbeaud", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Loupias", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -450,7 +461,7 @@
           44.85618451241429
         ]
       },
-      "properties": {"name":"Loupias", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Berthelot", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -461,7 +472,7 @@
           44.857724955576344
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Sévigné 2", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -472,7 +483,7 @@
           44.85473712636337
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Sévigné ", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -483,7 +494,7 @@
           44.85308585630692
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Bergson", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -494,7 +505,7 @@
           44.85139788296146
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Pont-Roux", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -505,7 +516,7 @@
           44.852213404944315
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Pont-Roux Ouest", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -516,7 +527,7 @@
           44.858470755624744
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Henri Devier", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -527,7 +538,7 @@
           44.858462673559536
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Route de la Force", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -538,7 +549,7 @@
           44.863402355942746
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Claude Bernard", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -549,7 +560,7 @@
           44.86443032292418
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"F de Coulanges", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -560,7 +571,7 @@
           44.865379997534845
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Danias", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -571,7 +582,7 @@
           44.865374528038245
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Caville", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -582,7 +593,7 @@
           44.867329935286335
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Louis Lumière", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -593,7 +604,7 @@
           44.868820904369144
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Brénil", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -604,7 +615,7 @@
           44.870075494562684
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Pré Joli", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -615,7 +626,7 @@
           44.8716045028063
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"La Catte Nord", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -626,7 +637,7 @@
           44.870685150099405
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"La Catte", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -637,7 +648,7 @@
           44.868606943490015
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Aubertie", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -648,7 +659,7 @@
           44.866974469058285
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Réné Coicaud / La Brunetière", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -659,7 +670,7 @@
           44.86277401253317
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Brazza", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -670,7 +681,7 @@
           44.861225827130845
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Montesquieu", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -681,7 +692,7 @@
           44.860433239195665
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Leconte de Lisle", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -692,7 +703,7 @@
           44.858865387365526
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"La Boétie", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -703,7 +714,7 @@
           44.85718663869571
         ]
       },
-      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Durou", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -7069,68 +7080,260 @@
             44.84036278668808
           ],
           [
-            0.4732707668614333,
-            44.84053609571031
+            0.4732116968057065,
+            44.8403483522656
           ],
           [
-            0.4734498043131774,
-            44.84125048473619
+            0.47317140013502623,
+            44.840176584158044
           ],
           [
-            0.4735151831579154,
-            44.841516981668285
+            0.4731489366345265,
+            44.840042212531884
           ],
           [
-            0.4736067135405486,
-            44.841874052342554
+            0.4731636887841084,
+            44.83995529193468
           ],
           [
-            0.4737488706183379,
-            44.842446264181056
+            0.47318682283686186,
+            44.83991868037526
           ],
           [
-            0.47379748565673285,
-            44.84263454369292
+            0.4732666185550549,
+            44.839848310039905
           ],
           [
-            0.473843083209986,
-            44.84282448666785
+            0.47338222272649055,
+            44.839797306887036
           ],
           [
-            0.47393628997325354,
-            44.843218871896106
+            0.4734967915800148,
+            44.839780840241204
           ],
           [
-            0.474099735990654,
-            44.84376565651069
+            0.4739838682789488,
+            44.83977130455511
           ],
           [
-            0.47417550839532474,
-            44.84372714559853
+            0.4747667908334563,
+            44.83976069572565
           ],
           [
-            0.47429754890550235,
-            44.84372952281608
+            0.47509567300011657,
+            44.83975536017569
           ],
           [
-            0.47439075566876987,
-            44.84369766809283
+            0.4752759191573164,
+            44.839755597913836
           ],
           [
-            0.4745778397475586,
-            44.843684831109826
+            0.47541021734220923,
+            44.839768092242636
           ],
           [
-            0.4747213379298554,
-            44.84369766809283
+            0.47546323467205553,
+            44.83978259426465
           ],
           [
-            0.4751974300299988,
-            44.84363633581488
+            0.4755131908149579,
+            44.83980422842184
           ],
           [
-            0.4756966561828957,
-            44.8435788070297
+            0.47557657530361563,
+            44.83984893540604
+          ],
+          [
+            0.4756091932712625,
+            44.83989237384394
+          ],
+          [
+            0.47565412027226195,
+            44.84000408352721
+          ],
+          [
+            0.47572318715439543,
+            44.84024586167291
+          ],
+          [
+            0.4758069417989752,
+            44.84055083989065
+          ],
+          [
+            0.4758456080403439,
+            44.84068611087054
+          ],
+          [
+            0.47585231356288116,
+            44.84069633344486
+          ],
+          [
+            0.4758543252196423,
+            44.84071582765135
+          ],
+          [
+            0.47589613822310195,
+            44.84087035466446
+          ],
+          [
+            0.47589822611320276,
+            44.840879167131305
+          ],
+          [
+            0.4756257698850641,
+            44.840910698277824
+          ],
+          [
+            0.47544054081202436,
+            44.840932240913816
+          ],
+          [
+            0.4752333401656239,
+            44.84095627634934
+          ],
+          [
+            0.47507172765984595,
+            44.84097593326906
+          ],
+          [
+            0.4750593224431521,
+            44.84096903900841
+          ],
+          [
+            0.47502328047002607,
+            44.84081407706157
+          ],
+          [
+            0.47497986709804874,
+            44.84063968777026
+          ],
+          [
+            0.4749487771075467,
+            44.84050536511569
+          ],
+          [
+            0.4749124606282429,
+            44.84042953409442
+          ],
+          [
+            0.47487792718717614,
+            44.84039957943046
+          ],
+          [
+            0.47484086925709157,
+            44.840383665078285
+          ],
+          [
+            0.4748003008457413,
+            44.84037748395351
+          ],
+          [
+            0.47474056742041526,
+            44.84037408091324
+          ],
+          [
+            0.4745655532821935,
+            44.840375549823676
+          ],
+          [
+            0.47438937869503484,
+            44.84037721397276
+          ],
+          [
+            0.4742666676326035,
+            44.840382171616774
+          ],
+          [
+            0.47421905842258916,
+            44.84038668859226
+          ],
+          [
+            0.474177350945717,
+            44.84040428101977
+          ],
+          [
+            0.47416393990064254,
+            44.84041949608787
+          ],
+          [
+            0.47414382333303084,
+            44.84047037144269
+          ],
+          [
+            0.4741393019744633,
+            44.8404983363949
+          ],
+          [
+            0.4742330289318186,
+            44.840878372857716
+          ],
+          [
+            0.47428164397021355,
+            44.841063329235055
+          ],
+          [
+            0.4743491555130497,
+            44.84132888096303
+          ],
+          [
+            0.47441913372391564,
+            44.841613575354074
+          ],
+          [
+            0.4745298922310415,
+            44.84207383050561
+          ],
+          [
+            0.47457792130823684,
+            44.84227019397939
+          ],
+          [
+            0.47462351886149,
+            44.84246203997145
+          ],
+          [
+            0.4746581983016096,
+            44.84259897054904
+          ],
+          [
+            0.4747105013774,
+            44.84279662396699
+          ],
+          [
+            0.4747601222441755,
+            44.84297444244069
+          ],
+          [
+            0.47480202936335036,
+            44.84313514422555
+          ],
+          [
+            0.47483405628242714,
+            44.84327643940776
+          ],
+          [
+            0.47491195650098295,
+            44.843578255225225
+          ],
+          [
+            0.4749355050515325,
+            44.84367313423519
+          ],
+          [
+            0.47514310698006046,
+            44.843645896067486
+          ],
+          [
+            0.4753852699749572,
+            44.84361585501343
+          ],
+          [
+            0.47555580631081007,
+            44.843596793797396
+          ],
+          [
+            0.4756992776721214,
+            44.843578206791996
           ],
           [
             0.47572414882529834,
