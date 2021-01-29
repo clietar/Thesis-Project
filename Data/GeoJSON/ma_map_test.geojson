@@ -10,7 +10,7 @@
           44.85693912835538
         ]
       },
-      "properties": {}
+      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -21,7 +21,7 @@
           44.85285426393737
         ]
       },
-      "properties": {}
+      "properties": {"name":"Republique", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -32,7 +32,7 @@
           44.855643665513085
         ]
       },
-      "properties": {}
+      "properties": {"name":"Jules Ferry", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -43,7 +43,7 @@
           44.853470791471885
         ]
       },
-      "properties": {}
+      "properties": {"name":"Place de Lattre de Tassigny", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -54,7 +54,7 @@
           44.854020152822876
         ]
       },
-      "properties": {}
+      "properties": {"name":"Gambetta", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -65,7 +65,7 @@
           44.850015620123195
         ]
       },
-      "properties": {}
+      "properties": {"name":"Quai Salvette", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -76,7 +76,7 @@
           44.84617241466318
         ]
       },
-      "properties": {}
+      "properties": {"name":"Madeleine Fénelon ", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -87,7 +87,7 @@
           44.84655571538985
         ]
       },
-      "properties": {}
+      "properties": {"name":"La Madeleine", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -98,7 +98,7 @@
           44.849821502640424
         ]
       },
-      "properties": {}
+      "properties": {"name":"Hotel de Ville", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -109,7 +109,7 @@
           44.84572128436662
         ]
       },
-      "properties": {}
+      "properties": {"name":"Ecole de Musique - Direction Le Tounet", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -120,7 +120,7 @@
           44.845466643644876
         ]
       },
-      "properties": {}
+      "properties": {"name":"Ecole de Musique - Direction République", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -131,7 +131,7 @@
           44.84468244072977
         ]
       },
-      "properties": {}
+      "properties": {"name":"Ecole de Musique - Direction La Cavaille", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -142,7 +142,7 @@
           44.84706917566045
         ]
       },
-      "properties": {}
+      "properties": {"name":"Henri Sicard - Direction La Cavaille", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -153,7 +153,7 @@
           44.8469668982678
         ]
       },
-      "properties": {}
+      "properties": {"name":"Henri Sicard - Direction République", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -164,7 +164,7 @@
           44.84412380489707
         ]
       },
-      "properties": {}
+      "properties": {"name":"Chateaubriand -Direction La Cavaille", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -175,7 +175,7 @@
           44.844071031005704
         ]
       },
-      "properties": {}
+      "properties": {"name":"Chateaubriand - Direction SNCF", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -186,7 +186,7 @@
           44.83920246996737
         ]
       },
-      "properties": {}
+      "properties": {"name":"Croze - Direction La Cavaille", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -197,7 +197,7 @@
           44.83902996029951
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -208,7 +208,7 @@
           44.836603995553475
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -219,7 +219,7 @@
           44.83643257671868
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -230,7 +230,7 @@
           44.835673348603216
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -241,7 +241,7 @@
           44.839750536005
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -252,7 +252,7 @@
           44.8396879664095
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -263,7 +263,7 @@
           44.837187704147745
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -274,7 +274,7 @@
           44.83471186147151
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -285,7 +285,7 @@
           44.83391277224789
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -296,7 +296,7 @@
           44.83570661042687
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -307,7 +307,7 @@
           44.837018261210936
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -318,7 +318,7 @@
           44.83842291786659
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -329,7 +329,7 @@
           44.84016412143892
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -340,7 +340,7 @@
           44.83915271353588
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -351,7 +351,7 @@
           44.84036125947167
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -362,7 +362,7 @@
           44.84357237708049
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -373,7 +373,7 @@
           44.84364591034441
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -384,7 +384,7 @@
           44.854700030179764
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -395,7 +395,7 @@
           44.852563505531194
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -406,7 +406,7 @@
           44.85120261748202
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -417,7 +417,7 @@
           44.849643493218686
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -428,7 +428,7 @@
           44.84910331358292
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -439,7 +439,7 @@
           44.85254402359569
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -450,7 +450,7 @@
           44.85618451241429
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -461,7 +461,7 @@
           44.857724955576344
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -472,7 +472,7 @@
           44.85473712636337
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -483,7 +483,7 @@
           44.85308585630692
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -494,7 +494,7 @@
           44.85139788296146
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -505,7 +505,7 @@
           44.852213404944315
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -516,7 +516,7 @@
           44.858470755624744
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -527,7 +527,7 @@
           44.858462673559536
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -538,7 +538,7 @@
           44.863402355942746
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -549,7 +549,7 @@
           44.86443032292418
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -560,7 +560,7 @@
           44.865379997534845
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -571,7 +571,7 @@
           44.865374528038245
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -582,7 +582,7 @@
           44.867329935286335
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -593,7 +593,7 @@
           44.868820904369144
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -604,7 +604,7 @@
           44.870075494562684
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -615,7 +615,7 @@
           44.8716045028063
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -626,7 +626,7 @@
           44.870685150099405
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -637,7 +637,7 @@
           44.868606943490015
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -648,7 +648,7 @@
           44.866974469058285
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -659,7 +659,7 @@
           44.86277401253317
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -670,7 +670,7 @@
           44.861225827130845
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -681,7 +681,7 @@
           44.860433239195665
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -692,7 +692,7 @@
           44.858865387365526
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -703,7 +703,7 @@
           44.85718663869571
         ]
       },
-      "properties": {}
+      "properties": {"name":"", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -2954,8 +2954,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            0.48310157400689224,
-            44.853415381034296
+            0.4831052620442877,
+            44.853413717261866
           ],
           [
             0.48311678122070045,
@@ -3061,8 +3061,8 @@
             44.855471921936534
           ],
           [
-            0.48576754950009793,
-            44.85547905213478
+            0.48577157281362027,
+            44.85547358564948
           ]
         ]
       },
