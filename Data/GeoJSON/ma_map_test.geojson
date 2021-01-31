@@ -10,7 +10,7 @@
           44.85693912835538
         ]
       },
-      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"http://maps.google.com/mapfiles/kml/shapes/road_shield3.png","image":"", "image_height":""}
+      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -3000,7 +3000,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B coupure DeLattre vers répu", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne B", "desc": "Ligne B coupure DeLattre vers répu", "color":"#D2362A", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -3073,7 +3073,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 1 Répu vers Jeanne D'Arc", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 1 Répu vers Jeanne D'Arc", "color":"#D2362A", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -3146,7 +3146,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 2 Répu vers Jeanne D'Arc ", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 2 Répu vers Jeanne D'Arc ", "color":"#D2362A", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
