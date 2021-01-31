@@ -384,7 +384,7 @@
           44.84364591034441
         ]
       },
-      "properties": {"name":"Naillac", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Naillac / Henri Boyer", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -2955,9 +2955,7 @@
           ]
         ]
       },
-      "properties": {
-        "desc": "Ligne B"
-      }
+      "properties": {"name": "Ligne B", "desc": "Ligne B début jusque DeLattre", "color":"", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -3002,9 +3000,7 @@
           ]
         ]
       },
-      "properties": {
-        "desc": "Ligne B coupure DeLattre vers répu"
-      }
+      "properties": {"name": "Ligne B", "desc": "Ligne B coupure DeLattre vers répu", "color":"", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -3077,9 +3073,7 @@
           ]
         ]
       },
-      "properties": {
-        "desc": "Ligne B coupure 1 Répu vers Jeanne D'Arc"
-      }
+      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 1 Répu vers Jeanne D'Arc", "color":"", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -3152,9 +3146,7 @@
           ]
         ]
       },
-      "properties": {
-        "desc": "Ligne A coupure 2 Répu vers Jeanne D'Arc "
-      }
+      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 2 Répu vers Jeanne D'Arc ", "color":"", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -4443,9 +4435,7 @@
           ]
         ]
       },
-      "properties": {
-        "desc": "Ligne A vers la Cavaille"
-      }
+      "properties": {"name": "Ligne A - Direction La Cavaille", "desc": "Ligne A vers la Cavaille", "color":"", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -5662,9 +5652,7 @@
           ]
         ]
       },
-      "properties": {
-        "desc": "fin ligne A vers SNCF"
-      }
+      "properties": {"name": "Ligne A - Direction SNCF", "desc": "fin ligne A vers SNCF", "color":"", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -8093,7 +8081,7 @@
           ]
         ]
       },
-      "properties": {"desc": "ligne C"}
+      "properties": {"name": "Ligne C", "desc": "", "color":"", "image":"", "image_height":""}
     }
   ]
 }
