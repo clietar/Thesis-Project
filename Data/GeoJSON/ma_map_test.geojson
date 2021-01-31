@@ -10,7 +10,7 @@
           44.85693912835538
         ]
       },
-      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"http://maps.google.com/mapfiles/kml/shapes/road_shield3.png","image":"", "image_height":""}
     },
     {
       "type": "Feature",
