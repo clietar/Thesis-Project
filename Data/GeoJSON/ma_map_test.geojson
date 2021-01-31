@@ -2955,7 +2955,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B début jusque DeLattre", "color":"", "image":"#014491", "image_height":""}
+      "properties": {"name": "Ligne B", "desc": "Ligne B début jusque DeLattre", "color":"#014491", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
