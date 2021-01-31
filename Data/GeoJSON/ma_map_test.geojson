@@ -2955,7 +2955,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B début jusque DeLattre", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne B", "desc": "Ligne B début jusque DeLattre", "color":"", "image":"014491", "image_height":""}
     },
     {
       "type": "Feature",
@@ -4435,7 +4435,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne A - Direction La Cavaille", "desc": "Ligne A vers la Cavaille", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne A - Direction La Cavaille", "desc": "Ligne A vers la Cavaille", "color":"", "image":"014491", "image_height":""}
     },
     {
       "type": "Feature",
@@ -5652,7 +5652,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne A - Direction SNCF", "desc": "fin ligne A vers SNCF", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne A - Direction SNCF", "desc": "fin ligne A vers SNCF", "color":"014491", "image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -8081,7 +8081,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne C", "desc": "", "color":"", "image":"", "image_height":""}
+      "properties": {"name": "Ligne C", "desc": "", "color":"E09545", "image":"", "image_height":""}
     }
   ]
 }
