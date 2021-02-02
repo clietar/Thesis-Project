@@ -10,7 +10,7 @@
           44.85693912835538
         ]
       },
-      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Pôle Multimodal SNCF", "desc":"", "color":"", "icon":"https://drive.google.com/file/d/1DKsbjaUIR0n4_RmOaOuGG3iaEOWX_8aH/view?usp=sharing","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -208,7 +208,7 @@
           44.836603995553475
         ]
       },
-      "properties": {"name":"Route de Bordeaux - Direction La Cavaille", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Route de Bordeaux - Direction La Cavaille", "desc":"", "color":"", "icon":"https://drive.google.com/file/d/1DKsbjaUIR0n4_RmOaOuGG3iaEOWX_8aH/view?usp=sharing","image":"", "image_height":""}
     },
     {
       "type": "Feature",
@@ -219,7 +219,7 @@
           44.83643257671868
         ]
       },
-      "properties": {"name":"Route de Bordeaux - Direction SNCF", "desc":"", "color":"", "icon":"","image":"", "image_height":""}
+      "properties": {"name":"Route de Bordeaux - Direction SNCF", "desc":"", "color":"", "icon":"https://drive.google.com/file/d/1DKsbjaUIR0n4_RmOaOuGG3iaEOWX_8aH/view?usp=sharing","image":"", "image_height":""}
     },
     {
       "type": "Feature",
