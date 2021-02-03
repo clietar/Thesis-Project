@@ -10,7 +10,7 @@
           44.85693912835538
         ]
       },
-      "properties": {"name":"Pôle Multimodal SNCF", "desc":"Arrêt desservi par  les lignes A (terminus & départ), B (passage direction République puis terminus) et C (départ)", "color":"", "icon":"https://drive.google.com/uc?id=1rcI6URd107alE3EgEfqSf6sIX2liIM5v","image":"https://drive.google.com/uc?id=1csZ5hUfT9HlteA7ATM6VRYQyKBGrW7Ke", "image_height":"100"}
+      "properties": {"name":"Pôle Multimodal SNCF", "desc":"Arrêt desservi par  les lignes A (terminus & départ), B (passage direction République puis terminus) et C (départ)", "color":"", "icon":"https://drive.google.com/uc?id=1rcI6URd107alE3EgEfqSf6sIX2liIM5v","image":"https://drive.google.com/uc?id=1csZ5hUfT9HlteA7ATM6VRYQyKBGrW7Ke", "image_height":"200"}
     },
     {
       "type": "Feature",
