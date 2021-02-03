@@ -2955,7 +2955,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B début jusque DeLattre", "color":"#D2362A", "image":"https://drive.google.com/uc?id=1upVKWzEJdR6PUFUy2A8STU1djEYTUree", "image_height":"100"}
+      "properties": {"name": "Ligne B", "desc": "Chanzy -> SNCF -> Place de Lattre de Tassigny -> La Catte -> République -> Hopital -> SNCF", "color":"#D2362A", "image":"https://drive.google.com/uc?id=1upVKWzEJdR6PUFUy2A8STU1djEYTUree", "image_height":"100"}
     },
     {
       "type": "Feature",
@@ -3000,7 +3000,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B coupure DeLattre vers répu", "color":"#D2362A", "image":"https://drive.google.com/uc?id=1upVKWzEJdR6PUFUy2A8STU1djEYTUree", "image_height":"100"}
+      "properties": {"name": "Ligne B", "desc": "Chanzy -> SNCF -> Place de Lattre de Tassigny -> La Catte -> République -> Hopital -> SNCF", "color":"#D2362A", "image":"https://drive.google.com/uc?id=1upVKWzEJdR6PUFUy2A8STU1djEYTUree", "image_height":"100"}
     },
     {
       "type": "Feature",
@@ -3146,7 +3146,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne B", "desc": "Ligne B coupure 2 Répu vers Jeanne D'Arc ", "color":"#D2362A", "image":"https://drive.google.com/uc?id=1upVKWzEJdR6PUFUy2A8STU1djEYTUree", "image_height":"100"}
+      "properties": {"name": "Ligne B", "desc": "Chanzy -> SNCF -> Place de Lattre de Tassigny -> La Catte -> République -> Hopital -> SNCF", "color":"#D2362A", "image":"https://drive.google.com/uc?id=1upVKWzEJdR6PUFUy2A8STU1djEYTUree", "image_height":"100"}
     },
     {
       "type": "Feature",
@@ -4435,7 +4435,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne A - Direction La Cavaille", "desc": "Ligne A vers la Cavaille", "color":"#014491", "image":"https://drive.google.com/uc?id=1bqiu7_LN3tHezjPsbMmaLZq_3OhWRvTl", "image_height":"100"}
+      "properties": {"name": "Ligne A", "desc": "SNCF -> La Cavaille", "color":"#014491", "image":"https://drive.google.com/uc?id=1bqiu7_LN3tHezjPsbMmaLZq_3OhWRvTl", "image_height":"100"}
     },
     {
       "type": "Feature",
@@ -5652,7 +5652,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne A - Direction SNCF", "desc": "fin ligne A vers SNCF", "color":"#014491", "image":"https://drive.google.com/uc?id=1bqiu7_LN3tHezjPsbMmaLZq_3OhWRvTl", "image_height":"100"}
+      "properties": {"name": "Ligne A", "desc": "La Cavaille -> SNCF", "color":"#014491", "image":"https://drive.google.com/uc?id=1bqiu7_LN3tHezjPsbMmaLZq_3OhWRvTl", "image_height":"100"}
     },
     {
       "type": "Feature",
@@ -8081,7 +8081,7 @@
           ]
         ]
       },
-      "properties": {"name": "Ligne C", "desc": "", "color":"#E09545", "image":"https://drive.google.com/uc?id=1tU1B6S_14jCflyFreTxs52C0ID3BjNWR", "image_height":"100"}
+      "properties": {"name": "Ligne C", "desc": "SNCF -> Le Tounet -> Place de Lattre de Tassigny", "color":"#E09545", "image":"https://drive.google.com/uc?id=1tU1B6S_14jCflyFreTxs52C0ID3BjNWR", "image_height":"100"}
     }
   ]
 }
