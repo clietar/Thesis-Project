@@ -1,0 +1,15 @@
+
+<html>
+<head>Plan de bus de Bergerac </head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="wrapper">
+<div id="plan"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJuy5VkauT7WYO16Y4khiJnQ8s28mE7kU&callback=initMap" async defer>
+    </script>
+    <script type=text/javascript src="{{ url_for('static', filename='TUB_map.js') }}"> </script>
+</div>
+</body>
+</html>
+
