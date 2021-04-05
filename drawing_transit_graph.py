@@ -22,3 +22,6 @@ edge_labels =nx.get_edge_attributes(G, "travel_time")
 nodes = nx.spring_layout(G)
 
 #plotting the directed graph of the transit network
+plt.figure(3, figsize=(300,300))
+nx.draw(G, nodes, with_labels=True, font_size=230, node_size  =1800, node_color ='#99ffff', arrowsize=200)
+nx.draw_networkx_edge_labels(G, edge_labels=edge_labels, pos=nodes, font_size=150)
