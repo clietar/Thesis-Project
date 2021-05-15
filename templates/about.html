@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bergerapp - Trouvez votre itinéraire de bus à Bergerac </title>
+    <!-- Required meta tags always come first -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Boost - Starter Template , Responsive Bootstrap 4 template , bootstrap 4 starter template, bootstrap4 template, Boost template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" lang="en" content="Boost Bootstrap 4 starter template , Responsive and Modern HTML5 Template made from bootstrap 4.">
+    <meta name="keywords" lang="en" content="Boost template, bootstrap 4 template,bootstrap 4 starter template, responsive bootstrap 4 template, bootstrap 4, bootstraping, bootstrap4, oribitthemes">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="/static/img/logo.ico" type="image/x-icon" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="/static/dist/font-awesome/css/font-awesome.min.css"/>
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel = stylesheet >
+    <!--[if IE]>
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+    <![endif]-->
+</head>
+
+<body>
+    <div class="loader"></div>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url_for('get_ride') }}" id="header-logo">
+                    <img src="/static/img/logo-2.png" class="img-fluid" alt="BergerAPP">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('get_ride') }}">Calculer mon itinéraire
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{ url_for('about') }}">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.la-cab.fr/transports-urbains-bergeracois-tub/">Infos Transports</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" role="main">
+    
+        <div class="container">
+          <div class="row">
+            <div class="col-6 py-5"> 
+              <h2 class="mt-5">  Un calculateur d'itinéraires de bus pour Bergerac</h2> 
+              <p class="lead text-info" style="color:rgb(31,137,229)" >  BergerAPP est une application de transport permettant aux voyageurs de trouver facilement leur route à travers le réseau  bergeracois.</p> 
+    
+              <p >  Développé dans le cadre d'un mémoire de fin d'études sur l'exploitation de l'Open Data dans le domaine des transports en commun, BergerAPP est un <a style="color:rgb(31,137,229)">projet à code source ouvert </a> : tous les fichiers et données utilisées sont disponibles et consultables via <a style="color:rgb(31,137,229)" href="https://github.com/clietar/Thesis-Project">Github</a>.  </p> 
+
+              <p >  Aucun partenariat n'a été établi avec la ville de Bergerac. Toutes les informations collectées sur le réseau de transport Bergeracois proviennent des sources de données publiées en ligne par la <a style="color:rgb(31,137,229)" href="https://www.la-cab.fr/transports-urbains-bergeracois-tub/">CAB </a>(Communautée d'agglomération bergeracoise).</p>
+               <p><a style="color:rgb(31,137,229)">L'objectif du projet est avant tout académique </a> : il vise à surligner l'importance de l'ouverture et de la standardisation des données de transport publics par les autorités locales. Le cycle de dévelopement de l'application est entièrement détaillé et peut être librement réutilisable. </p> 
+    
+  
+                <form action="https://github.com/clietar/Thesis-Project">
+                <input type="submit" class="btn btn-primary btn-send" value="Voir le projet" name = "Projet">
+            </form>
+
+    
+            </div>
+            <div class="col-6 py-5" >
+                <h1 class="mt-5" style="color:rgba(255, 255, 255, 0)">  This text is invisible and needs to be here to center the image.   </h1> 
+    
+    
+                <img src="https://www.orgue-bergerac.org/wp-content/uploads/2016/08/logo-bergerac.jpg" class="img-fluid center-block"/>
+
+        </div>
+          </div>
+          <!-- row-->
+        </div>
+
+        <!-- container-->
+        </main>
+    
+    
+    
+    
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">Développée par
+                <a target="_blank" title="Charles LIETAR" href="https://www.linkedin.com/in/charles-lietar/" style="color:rgb(31,137,229)">Charles LIETAR</a> - MSc DAAI 2020/2021 - EDHEC
+            </p>
+            <div class="social">
+                <a traget="_blank" href="https://www.linkedin.com/in/charles-lietar/" title="linkedin">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+    
+                </a>
+                <a traget="_blank" href="https://github.com/clietar" title="github" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+    
+            </div>
+        </footer>
+        <!-- jQuery first, then Bootstrap JS. -->
+        <script src="/static/dist/jquery/jquery.min.js"></script>
+        <script src="/static/dist/popper/popper.min.js" integrity=""></script>
+        <script src="/static/dist/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/static/js/script.js"></script>
+    </body>
+    
+    </html>
+   

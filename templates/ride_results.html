@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bergerapp - Votre suggestion d'itinéraire pour  {{ departure }} vers {{ destination }} </title>
+    <!-- Required meta tags always come first -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Boost - Starter Template , Responsive Bootstrap 4 template , bootstrap 4 starter template, bootstrap4 template, Boost template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" lang="en" content="Boost Bootstrap 4 starter template , Responsive and Modern HTML5 Template made from bootstrap 4.">
+    <meta name="keywords" lang="en" content="Boost template, bootstrap 4 template,bootstrap 4 starter template, responsive bootstrap 4 template, bootstrap 4, bootstraping, bootstrap4, oribitthemes">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="/static/img/logo.ico" type="image/x-icon" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="/static/dist/font-awesome/css/font-awesome.min.css"/>
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel = stylesheet >
+    <!--[if IE]>
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+    <![endif]-->
+</head>
+
+<body>
+    <div class="loader"></div>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url_for('get_ride') }}" id="header-logo">
+                    <img src="/static/img/logo-2.png" class="img-fluid" alt="BergerAPP">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('get_ride') }}">Calculer mon itinéraire
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('about') }}">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.la-cab.fr/transports-urbains-bergeracois-tub/">Infos Transports</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" role="main">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-12 text-center">
+                            <h3>Itinéraire  </h3> <a  style="color:rgb(31,137,229)""><h3>{{ departure }} </h3>  </a>  <h3>➡️</h3>   </h3>    <a  style="color:rgb(31,137,229)""><h3>{{ destination }} </h3>  </a></h3></h3>
+                    <div class="row d-flex justify-content-center mt-70 mb-70">
+                        <div class="col-md-6">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Durée totale : {{travel_time}} mins</h5>
+                                    <div class="vertical-timeline vertical-timeline--animate vertical-timeline--one-column">
+
+                                        <div class="vertical-timeline-item vertical-timeline-element">
+                                            <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl "> </i> </span>
+                                                <div class="vertical-timeline-element-content bounce-in">
+                                                    <h4 class="timeline-title">{{departure}}</h4>
+                                                    {% if ride_dict[stops[1]][2] == 'A' %}
+                                                        <p>Prendre la <a class="timeline-title text-primary"> ligne {{ride_dict[stops[1]][2]}} </a>: prochain bus dans {{waiting_time}} mins </p>
+                                                    {% elif ride_dict[stops[1]][2] == 'B'  %}
+                                                        <p>Prendre la <a class="timeline-title text-danger"> ligne {{ride_dict[stops[1]][2]}} </a> : prochain bus dans {{waiting_time}} mins </p>
+                                                    {% elif ride_dict[stops[1]][2] == 'C' %}
+                                                        <p>Prendre la <a class="timeline-title text-warning"> ligne {{ride_dict[stops[1]][2]}} </a> : prochain bus dans {{waiting_time}} mins </p>
+                                                    
+                                                    {% elif ride_dict[stops[1]][2] == 'Transfer' %}
+                                                        <p> Marcher vers {{ride_dict[stops[2]][0]}} : {{transfers[stops[1]][1]}} min(s), prendre la 
+                                                            {% if ride_dict[stops[2]][2] == 'A' %}
+                                                                <a class="timeline-title text-primary"> ligne {{ride_dict[stops[2]][2]}} </a> : prochain bus dans {{waiting_time}} mins </p>
+                                                                {% elif ride_dict[stops[2]][2] == 'B' %}
+                                                                <a class="timeline-title text-danger"> ligne {{ride_dict[stops[2]][2]}} </a> : prochain bus dans {{waiting_time}} mins </p>
+                                                                {% elif ride_dict[stops[2]][2] == 'C' %}
+                                                                <a class="timeline-title text-warning"> ligne {{ride_dict[stops[2]][2]}} </a> : prochain bus dans {{waiting_time}} mins </p>
+                                                            {% endif %}
+                                                    {% endif %}
+                                                    <span class="vertical-timeline-element-date">  <h3>🚀</h3> {{func(ride_dict[stops[1]][1])}}</span>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+
+                                        {% for stop in stops[2:-1] %}
+
+                                            {% if stop in transits.keys() %}
+                                            <div class="vertical-timeline-item vertical-timeline-element">
+
+                                                {% if transits[stop][1] == 'A' %}
+                                                <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-primary"> </i> </span>
+                                                <div class="vertical-timeline-element-content bounce-in">
+                                                    <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                    <p> Descendre du bus puis attendre {{transits[stop][3]}} mins et prendre la <a class="timeline-title text-primary"> ligne {{transits[stop][1]}} </a> </p> <span class="vertical-timeline-element-date"><h2>⏱️</h2>{{func(ride_dict[stop][1])}} </span>
+                                                </div>
+                                                </div>
+
+                                                {% elif transits[stop][1] == 'B' %}
+                                                <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-danger"> </i> </span>
+                                                <div class="vertical-timeline-element-content bounce-in">
+                                                    <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                    <p> Descendre du bus puis attendre {{transits[stop][3]}} mins et prendre la <a class="timeline-title text-danger"> ligne {{transits[stop][1]}} </a> </p> <span class="vertical-timeline-element-date"><h2>⏱️</h2>{{func(ride_dict[stop][1])}} </span>
+                                                </div>
+                                                </div>
+
+                                                {% elif transits[stop][1] == 'C' %}
+                                                <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-warning"> </i> </span>
+                                                <div class="vertical-timeline-element-content bounce-in">
+                                                    <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                    <p> Descendre du bus puis attendre {{transits[stop][3]}} mins et prendre la <a class="timeline-title text-warning"> ligne {{transits[stop][1]}} </a> </p> <span class="vertical-timeline-element-date"><h3>⏱️</h3>{{func(ride_dict[stop][1])}} </span>
+                                                </div>
+                                                </div>
+                                                {% endif %}
+                                                </div>
+
+
+
+
+
+                                            {% elif ride_dict[stop][2] == 'A' %}
+                                                        <div class="vertical-timeline-item vertical-timeline-element">
+                                                        <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-primary"> </i> </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                            <p></p> <span class="vertical-timeline-element-date">{{func(ride_dict[stop][1])}}</span>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+
+                                            {% elif ride_dict[stop][2] == 'B' %}
+                                                        <div class="vertical-timeline-item vertical-timeline-element">
+                                                        <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-danger"> </i> </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                            <p> </p> <span class="vertical-timeline-element-date">{{func(ride_dict[stop][1])}}</span>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+
+
+                                            {% elif ride_dict[stop][2] == 'C' %}
+                                                        <div class="vertical-timeline-item vertical-timeline-element">
+                                                        <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-warning"> </i> </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                            <p></p> <span class="vertical-timeline-element-date">{{func(ride_dict[stop][1])}}</span>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+
+
+                                            {% elif ride_dict[stop][2] == 'Transfer' %}
+                                                        <div class="vertical-timeline-item vertical-timeline-element">
+                                                        <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl"> </i> </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">{{ride_dict[stop][0]}}</h4>
+                                                            <p>Descendre du bus puis  marcher vers {{ride_dict[transfers[stop][0]][0]}} : {{transfers[stop][1]}} min(s) </p> <span class="vertical-timeline-element-date"><h3>🚶‍♂️</h3></span>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                        {% endif %}   
+
+                                        {% endfor %}
+
+
+                                        <div class="vertical-timeline-item vertical-timeline-element">
+                                            <div> <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl "> </i> </span>
+                                                <div class="vertical-timeline-element-content bounce-in">
+                                                    <h4 class="timeline-title">{{destination}}</h4>
+                                                    {% if ride_dict[stops[-1]][2] == 'A' %}
+                                                        <p>Arrivée prévue à {{func(arrival_time)}} </p>
+                                                    {% elif ride_dict[stops[-1]][2] == 'B'  %}
+                                                        <p>Arrivée prévue à {{func(arrival_time)}} </p>
+                                                    {% elif ride_dict[stops[-1]][2] == 'C' %}
+                                                        <p>Arrivée prévue à {{func(arrival_time)}}</p>
+                                                    {% endif %}
+                                                    <span class="vertical-timeline-element-date"><h3>🏁</h3> </span>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <form action="{{ url_for('get_ride') }}">
+                        <input type="submit" class="btn btn-primary btn-send" value="Calculer un autre itinéraire" name = "Return">
+                    </form>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    
+    
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">Développée par
+                <a target="_blank" title="Charles LIETAR" href="https://www.linkedin.com/in/charles-lietar/" style="color:rgb(31,137,229)"">Charles LIETAR</a> - MSc DAAI 2020/2021 - EDHEC
+            </p>
+            <div class="social">
+                <a traget="_blank" href="https://www.linkedin.com/in/charles-lietar/" title="linkedin">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+    
+                </a>
+                <a traget="_blank" href="https://github.com/clietar" title="github" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+    
+            </div>
+        </footer>
+        <!-- jQuery first, then Bootstrap JS. -->
+        <script src="/static/dist/jquery/jquery.min.js"></script>
+        <script src="/static/dist/popper/popper.min.js" integrity=""></script>
+        <script src="/static/dist/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/static/js/script.js"></script>
+    </body>
+    
+    </html>
+   
