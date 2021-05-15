@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+A,TUB,Ligne A,,Pôle multimodel SNCF <> La Cavaille ,3,,14491,FFFFFF
+B,TUB,Ligne B,,Chanzy -> SNCF -> Place de Lattre de Tassigny -> La Catte -> République -> Hopital -> SNCF,3,,D2362A,FFFFFF
+C,TUB,Ligne C,,SNCF -> Le Tounet -> Place de Lattre de Tassigny,3,,E09545,FFFFFF

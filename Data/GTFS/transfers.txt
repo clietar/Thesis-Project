@@ -1,0 +1,17 @@
+from_stop_id,to_stop_id,transfer_type,min_transfer_time
+bordeaux1,bordeaux2,2,60
+bordeaux2,bordeaux1,2,60
+croze1,croze2,2,60
+croze2,croze1,2,60
+briand1,briand2,2,60
+briand2,briand1,2,60
+sicard1A,sicard2AC,2,60
+sicard2AC,sicard1A,2,60
+musique1A,musique2AC,2,60
+musique2AC,musique1A,2,60
+musique1C,musique2AC,2,120
+musique2AC,musique1C,2,120
+musique1C,musique1A,2,120
+musique1A,musique1C,2,120
+madeleine1AC,madeleine2AC,2,60
+madeleine2AC,madeleine1AC,2,60

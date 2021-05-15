@@ -1,0 +1,66 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon
+sncf,,Pôle Multimodal SNCF,"Arrêt desservi par  les lignes A (terminus & départ), B (passage direction République puis terminus) et C (départ)",44.856914,0.48802510000000004
+repu,,Republique,"Arrêt desservi par les lignes  A (passage dans les deux directions), B (passage direction Place de Lattre de Tassigny et passage direction Hopîtal Samuel Pozzy ) et C  (passage direction Place de Lattre de Tassigny)",44.852877299999996,0.48744979999999993
+ferry,,Jules Ferry,Arrêt desservi par la ligne A (passage direction SNCF),44.855642200000005,0.48428509999999997
+delattre,,Place de Lattre de Tassigny,"Arrêt desservi par les lignes A (passage dans les deux directions), B (passages direction la Catte puis direction République puis direction SNCF ) et C (terminus)",44.8534368,0.483303
+gambettaBC,,Gambetta,Arrêt desservi par les lignes B (passage direction Place de Lattre de Tassigny) et C (passage direction Le Tounet),44.8540101,0.48234499999999997
+salvetteAC,,Quai Salvette,Arrêt desservi par les lignes A (passage direction La Cavaille) et C (passage direction Le Tounet),44.850011203841326,0.48258145388019397
+madeleine1AC,,Madeleine Fénelon ,Arrêt desservi par les lignes A (passage direction La Cavaille) et C (passage direction Le Tounet),44.846244299999995,0.4814808
+madeleine2AC,,La Madeleine,Arrêt desservi par les lignes A (passage direction SNCF) et C (passage direction Place de Lattre de Tassigny  ),44.8466012,0.4821113
+hotelAC,,Hotel de Ville,Arrêt desservi par les lignes A (passage direction SNCF) et C (passage direction Place de Lattre de Tassigny),44.8497153,0.48458950000000006
+musique1A,,Ecole de Musique - Direction La Cavaille,Arrêt desservi par la ligne A (passage direction La Cavaille),44.845725200000004,0.47996140000000004
+musique2AC,,Ecole de Musique - Direction République,Arrêt desservi par les lignes A (passage direction SNCF) et C (passage direction Place de Lattre de Tassigny),44.8454484,0.4802345
+musique1C,,Ecole de Musique - Direction Le Tounet,Arrêt desservi par la ligne C (passage direction Le Tounet),44.8446609,0.4809069
+sicard1A,,Henri Sicard - Direction La Cavaille,Arrêt desservi par la ligne A (passage direction La Cavaille),44.8470676,0.4786428
+sicard2AC,,Henri Sicard - Direction République,Arrêt desservi par les lignes A (passage direction SNCF) et C (passage direction  Place de Lattre de Tassigny),44.8468933,0.47879540000000004
+briand1,,Chateaubriand -Direction La Cavaille,Arrêt desservi par la ligne A  (passage direction La Cavaille),44.844112700000004,0.47061270000000005
+briand2,,Chateaubriand - Direction SNCF,Arrêt desservi par la ligne A  (passage direction SNCF),44.8440289,0.4705329000000001
+croze1,,Croze - Direction La Cavaille,Arrêt desservi par la ligne A  (passage direction La Cavaille),44.8391959,0.45946499999999996
+croze2,,Croze - Direction SNCF,Arrêt desservi par la ligne A  (passage direction SNCF),44.839051700000006,0.45913909999999997
+bordeaux1,,Route de Bordeaux - Direction La Cavaille,Arrêt desservi par la ligne A  (passage direction La Cavaille),44.8366373,0.4536698
+bordeaux2,,Route de Bordeaux - Direction SNCF,Arrêt desservi par la ligne A  (passage direction SNCF),44.8365396,0.4534424
+cavaille,,La Cavaille,Arrêt desservi par la ligne A (terminus et depart en direction de SNCF),44.835673299999996,0.44545340000000005
+labatut,,Labatut,Arrêet desservi par la ligne C (passage direction Le Tounet),44.8397253,0.48361859999999995
+beylive,,La Beylive,Arrêet desservi par la ligne C (passage direction Le Tounet),44.839704,0.48181199999999996
+clairat,,Petit Clairat,Arrêet desservi par la ligne C (passage direction Le Tounet),44.8372854,0.47509409999999996
+apollinaire,,Apollinaire,Arrêet desservi par la ligne C (passage direction Le Tounet),44.834728600000005,0.4715326
+tounet,,Le Tounet,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.833936,0.46803320000000004
+vauthier,,Vauthier,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.8356912,0.4666036
+marais,,Le Marais,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.837091,0.465854
+bonnefond,,Bonnefond,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.8384007,0.46467120000000006
+leydier,,J.Leydier,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.8401475,0.4653348
+leroy,,Collège E.Leroy,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.839131,0.46968999999999994
+taillis,,Le Taillis,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.840352200000005,0.47158729999999993
+lopofa,,Lo Po Fa,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.8406965,0.4758528
+capelle,,Lycée J.Capelle,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.8435652,0.475609
+naillac,,Naillac / Henri Boyer,Arrêet desservi par la ligne C (passage direction Place de Lattre de Tassigny),44.843624,0.478008
+chanzy,,Chanzy / Lycée des Métiers,Arrêet desservi par la ligne B (passage direction SNCF),44.8546947,0.49452840000000003
+jeanne,,Jeanne D'Arc,Arrêt desservi par la ligne B (passage direction SNCF puis passage direction Place de Lattre de Tassigny) ,44.8525609,0.49584659999999997
+hopital,,Hôpital Samuel Pozzi,Arrêt desservi par la ligne B (passage direction SNCF puis passage direction Place de Lattre de Tassigny) ,44.851222,0.49645609999999996
+bellay,,Du Bellay,Arrêt desservi par la ligne B (passage direction SNCF puis passage direction Place de Lattre de Tassigny) ,44.8496304,0.4987142
+guilbeaud,,Guilbeaud,Arrêt desservi par la ligne B (passage direction SNCF puis passage direction Place de Lattre de Tassigny) ,44.849062200000006,0.495145
+loupias,,Loupias,Arrêt desservi par la ligne B (passage direction la Catte),44.8525616,0.4764138
+berthelot,,Berthelot,Arrêt desservi par la ligne B (passage direction la Catte),44.8561185,0.47026260000000003
+sevigne2,,Sévigné 2,Arrêt desservi par la ligne B (passage direction la Catte),44.8576961,0.47288789999999997
+sevigne,,Sévigné ,Arrêt desservi par la ligne B (passage direction la Catte),44.854757899999996,0.4716295999999999
+bergson,,Bergson,Arrêt desservi par la ligne B (passage direction la Catte),44.8531398,0.46922470000000005
+roux,,Pont-Roux,Arrêt desservi par la ligne B (passage direction la Catte),44.851355100000006,0.45973400000000003
+rouxouest,,Pont-Roux Ouest,Arrêt desservi par la ligne B (passage direction la Catte),44.8521871,0.45510470000000003
+devier,,Henri Devier,Arrêt desservi par la ligne B (passage direction la Catte),44.858436700000006,0.45623509999999995
+force,,Route de la Force,Arrêt desservi par la ligne B (passage direction la Catte),44.8585064,0.4564839
+bernard,,Claude Bernard,Arrêt desservi par la ligne B (passage direction la Catte),44.8633405,0.46889390000000003
+coulanges,,F de Coulanges,Arrêt desservi par la ligne B (passage direction la Catte),44.8644575,0.47075839999999997
+danias,,Danias,Arrêt desservi par la ligne B (passage direction la Catte),44.8653302,0.47254979999999996
+caville,,Caville,Arrêt desservi par la ligne B (passage direction la Catte),44.865300399999995,0.47804079999999993
+lumiere,,Louis Lumière,Arrêt desservi par la ligne B (passage direction la Catte),44.867319099999996,0.4781875
+brenil,,Brénil,Arrêt desservi par la ligne B (passage direction la Catte),44.8688377,0.4783697
+joli,,Pré Joli,Arrêt desservi par la ligne B (passage direction la Catte),44.8700905,0.47971980000000003
+cattenord,,La Catte Nord,Arrêt desservi par la ligne B (passage direction la Catte),44.871624,0.4834044
+catte,,La Catte,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.870742,0.48437470000000005
+aubertie,,Aubertie,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.8686369,0.4839337
+coicaud,,Réné Coicaud / La Brunetière,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.8669895,0.4837299
+brazza,,Brazza,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.862825,0.482785
+montesquieu,,Montesquieu,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.8612162,0.48225
+lisle,,Leconte de Lisle,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.860483,0.479221
+boetie,,La Boétie,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.8588481,0.47996120000000003
+durou,,Durou,Arrêt desservi par la ligne B (passage direction Place de Lattre de Tassigny),44.8571717,0.481238
