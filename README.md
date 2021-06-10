@@ -13,3 +13,6 @@ https://drive.google.com/file/d/1rgFGajKLIHYoAdFqesmSdVyGgFisTfmD/view?usp=shari
 
 # Web transit application link : 
 https://bergerapp.herokuapp.com/
+
+# Tech stack : 
+Flask, Heroku, Python, SQLite, Dijkstra's algorithm implementation
