@@ -15,4 +15,4 @@ https://drive.google.com/file/d/1rgFGajKLIHYoAdFqesmSdVyGgFisTfmD/view?usp=shari
 https://bergerapp.herokuapp.com/
 
 # Tech stack : 
-Flask, Heroku, Python, SQLite, Dijkstra's algorithm implementation
+Flask, Heroku, Python, SQLite, Dijkstra's algorithm implementation, Bootstrap
