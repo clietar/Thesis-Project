@@ -8,6 +8,8 @@ Finally, we develop a transit web-application, BergerAPP,  using publicly availa
 
 
 
-# Paper link : https://drive.google.com/file/d/1rgFGajKLIHYoAdFqesmSdVyGgFisTfmD/view?usp=sharing
+# Paper link : 
+https://drive.google.com/file/d/1rgFGajKLIHYoAdFqesmSdVyGgFisTfmD/view?usp=sharing
 
-# Web transit application link : https://bergerapp.herokuapp.com/
+# Web transit application link : 
+https://bergerapp.herokuapp.com/
