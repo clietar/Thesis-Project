@@ -16,4 +16,5 @@ https://bergerapp.herokuapp.com/
 
 # Tech stack : 
 Flask, Python, SQLite, Dijkstra's algorithm implementation, Bootstrap
+
 Deployed with Heroku
